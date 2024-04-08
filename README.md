@@ -13,6 +13,8 @@ This is **NOT** production-ready software. This was built in a day just to
 allow me to play the game a bit more comfortably. Feature requests are unlikely
 to be merged in.
 
+![UI](./res/screencap.png)
+
 # How it works ?
 The flutter app and the python backend communicate using websockets. I use
 [](https://github.com/yannbouteiller/vgamepad/) for the emulation of
@@ -36,7 +38,6 @@ Tested on Android + Linux.
 
 where host name is the IP address at which you can reach the backend (both
 devices need to be on the same network)
-
 
 ```console
 flutter run
